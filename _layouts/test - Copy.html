@@ -1,0 +1,146 @@
+  <!DOCTYPE html>
+  <html>
+
+  <head>
+
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+   <title>Title</title>
+   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+   <!--   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"> -->
+   <link rel="stylesheet" href="../css/v4/bootstrap.css">
+   <link rel="stylesheet" href="../css/main.css" >
+  <link rel="stylesheet" href="../fonts/font-awesome-4.6.3/css/font-awesome.min.css">
+   <link href='https://fonts.googleapis.com/css?family=Allura|Amaranth' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+
+    <header>
+
+      <div class="container-fluid">
+
+        <div class="row top-row m-b-1">
+
+         <nav class="navbar navbar-dark bg-inverse">
+            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+              &#9776;
+            </button>
+            <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+              <a class="navbar-brand" href="#">Cake love</a>
+              <ul class="nav navbar-nav float-right">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- <div class="col-md-3 search"> 
+            <div class="input-group">
+              <input type="text" class="form-control search-input input-box grey-border" placeholder="Search this blog">
+              <span class="input-group-btn">
+                <button class="btn btn-sm search-button" type="button"><span class="glyphicon glyphicon-search"></span></button>
+              </span>
+            </div><!-- /input-group -->
+
+
+           <!--  <ul id="search_results"></ul> -->
+          </div>
+
+        </div>
+  <div class="container">
+        <div class="row">
+
+          <div class="col-lg-8 col-md-12">
+
+            <div class="card">
+              
+
+              <img class="img-fluid" src="../assets/img/cake.jpg" alt="Card image cap" style="width:100%">
+
+
+              <div class="card-footer">
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros </p>
+                <a href="#" class="btn btn-default">More ...</a>
+            </div>
+          </div>
+          </div>
+
+          <div class="col-lg-3 col-md-12">
+
+  <!--         <div class="card">
+          <div class="card-header">
+            Let's keep in touch
+
+          </div>
+            <form>
+              <div class="input-group">
+              
+                <input type="email" class="form-control" id="email" placeholder="example@mail.com">
+                <span class = "input-group-btn">
+                    <button class = "btn btn-default" type = "button">
+                       Subscribe!
+                    </button>
+                 </span>
+              </div>
+            </form>
+          </div> -->
+
+
+  <!--         <form>
+            <div class="form-group subscribe-form">
+              <label class="label-text dark-text" for="email">Let's keep in touch</label>
+              <input type="email" class="form-control input-box grey-border" id="email" placeholder="Email address">
+            </div>
+            <button type="submit" class="btn btn-sm btn-block subscribe-button">Subscribe</button>
+          </form> -->
+
+  <!-- <div class="input-group margin-bottom-sm"> -->
+    <div class="form-group subscribe-form">
+      <label class="label-text dark-text" for="email">Let's keep in touch</label>
+              
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+        <input class="form-control" type="text" placeholder="Email address">
+      </div>
+    </div>
+    <button type="submit" class="btn btn-sm btn-block btn-default subscribe-button">Subscribe!</button>
+  <!-- </div> -->
+
+            <div id="me" class="m-t-1">
+              
+              <p class="text-xs-center">Hi I'm Dilini</p>
+
+              <img src="../assets/img/self.jpg" class="img-fluid img-circle m-x-auto">
+
+              <p id="about-text" class="info-text text-xs-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
+
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+
+  </div>
+
+    </header>
+
+  <script type="text/javascript" src="js/v4/bootstrap.js"></script>
+  </body>
+
+  </html>

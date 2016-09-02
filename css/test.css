@@ -78,6 +78,8 @@ a, a:hover, a:active, a:visited {
 .subscribe-button{
 	background-color: #ff5d55;
 	color: #FFFFFF;
+	font-weight: bold;
+	font-family: 'Amaranth', sans-serif;
 }
 
 .grey-border{
@@ -96,18 +98,25 @@ a, a:hover, a:active, a:visited {
 	padding-left: 0px;
 }
 
-#me{
-	
+#me p{
+	padding-top: 20px;
 }
-
-@media (min-width: @screen-lg-min) {
 
 .gutter{
-	min-height: 100px;
-	}
+	height: 30px;
 }
+
+
 
 .info-text{
 	color: #4a4a4a;
+	font-family: 'Amaranth', sans-serif;
+}
+
+
+/* Text */
+
+.bold-amaranath{
+	font-weight: bold;
 	font-family: 'Amaranth', sans-serif;
 }
